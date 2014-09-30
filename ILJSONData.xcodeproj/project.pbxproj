@@ -28,6 +28,8 @@
 		69A2D5D419DB0AAA00E59A32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A2D59619DAFCE200E59A32 /* UIKit.framework */; };
 		69A2D5DC19DB0AAA00E59A32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69A2D5DA19DB0AAA00E59A32 /* InfoPlist.strings */; };
 		69A2D5DE19DB0AAA00E59A32 /* ILJSONDataExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D5DD19DB0AAA00E59A32 /* ILJSONDataExampleTests.m */; };
+		69A2D5E719DB0B2C00E59A32 /* JSONExample.Json in Resources */ = {isa = PBXBuildFile; fileRef = 69A2D5E519DB0B2C00E59A32 /* JSONExample.Json */; };
+		69A2D5E819DB0B2C00E59A32 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A2D5E619DB0B2C00E59A32 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,8 +74,6 @@
 		69A2D59D19DAFCE200E59A32 /* ILJSONDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ILJSONDataTests-Info.plist"; sourceTree = "<group>"; };
 		69A2D59F19DAFCE200E59A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		69A2D5A119DAFCE200E59A32 /* ILJSONDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILJSONDataTests.m; sourceTree = "<group>"; };
-		69A2D5B419DB0A6000E59A32 /* JSONExample.Json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JSONExample.Json; sourceTree = "<group>"; };
-		69A2D5B519DB0A6D00E59A32 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		69A2D5BA19DB0AAA00E59A32 /* ILJSONDataExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILJSONDataExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A2D5BC19DB0AAA00E59A32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		69A2D5C119DB0AAA00E59A32 /* ILJSONDataExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ILJSONDataExample-Info.plist"; sourceTree = "<group>"; };
@@ -87,6 +87,8 @@
 		69A2D5D919DB0AAA00E59A32 /* ILJSONDataExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ILJSONDataExampleTests-Info.plist"; sourceTree = "<group>"; };
 		69A2D5DB19DB0AAA00E59A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		69A2D5DD19DB0AAA00E59A32 /* ILJSONDataExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILJSONDataExampleTests.m; sourceTree = "<group>"; };
+		69A2D5E519DB0B2C00E59A32 /* JSONExample.Json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JSONExample.Json; sourceTree = "<group>"; };
+		69A2D5E619DB0B2C00E59A32 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +137,6 @@
 		69A2D57919DAFCE200E59A32 = {
 			isa = PBXGroup;
 			children = (
-				69A2D5B319DB08F000E59A32 /* Sample */,
 				69A2D58719DAFCE200E59A32 /* ILJSONData */,
 				69A2D59B19DAFCE200E59A32 /* ILJSONDataTests */,
 				69A2D5BF19DB0AAA00E59A32 /* ILJSONDataExample */,
@@ -203,18 +204,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		69A2D5B319DB08F000E59A32 /* Sample */ = {
-			isa = PBXGroup;
-			children = (
-				69A2D5B419DB0A6000E59A32 /* JSONExample.Json */,
-				69A2D5B519DB0A6D00E59A32 /* Storyboard.storyboard */,
-			);
-			path = Sample;
-			sourceTree = "<group>";
-		};
 		69A2D5BF19DB0AAA00E59A32 /* ILJSONDataExample */ = {
 			isa = PBXGroup;
 			children = (
+				69A2D5E519DB0B2C00E59A32 /* JSONExample.Json */,
+				69A2D5E619DB0B2C00E59A32 /* Storyboard.storyboard */,
 				69A2D5C819DB0AAA00E59A32 /* AppDelegate.h */,
 				69A2D5C919DB0AAA00E59A32 /* AppDelegate.m */,
 				69A2D5CB19DB0AAA00E59A32 /* Images.xcassets */,
@@ -376,7 +370,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				69A2D5C419DB0AAA00E59A32 /* InfoPlist.strings in Resources */,
+				69A2D5E819DB0B2C00E59A32 /* Storyboard.storyboard in Resources */,
 				69A2D5CC19DB0AAA00E59A32 /* Images.xcassets in Resources */,
+				69A2D5E719DB0B2C00E59A32 /* JSONExample.Json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
