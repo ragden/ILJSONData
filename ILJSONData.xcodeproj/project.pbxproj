@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69A2D58619DAFCE200E59A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A2D58519DAFCE200E59A32 /* Foundation.framework */; };
+		69A2D58B19DAFCE200E59A32 /* ILJSONData.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 69A2D58A19DAFCE200E59A32 /* ILJSONData.h */; };
+		69A2D58D19DAFCE200E59A32 /* ILJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D58C19DAFCE200E59A32 /* ILJSONData.m */; };
+		69A2D59419DAFCE200E59A32 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A2D59319DAFCE200E59A32 /* XCTest.framework */; };
+		69A2D59519DAFCE200E59A32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A2D58519DAFCE200E59A32 /* Foundation.framework */; };
+		69A2D59719DAFCE200E59A32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A2D59619DAFCE200E59A32 /* UIKit.framework */; };
+		69A2D59A19DAFCE200E59A32 /* libILJSONData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A2D58219DAFCE200E59A32 /* libILJSONData.a */; };
+		69A2D5A019DAFCE200E59A32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69A2D59E19DAFCE200E59A32 /* InfoPlist.strings */; };
+		69A2D5A219DAFCE200E59A32 /* ILJSONDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D5A119DAFCE200E59A32 /* ILJSONDataTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69A2D59819DAFCE200E59A32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69A2D57A19DAFCE200E59A32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A2D58119DAFCE200E59A32;
+			remoteInfo = ILJSONData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		69A2D58019DAFCE200E59A32 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				69A2D58B19DAFCE200E59A32 /* ILJSONData.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		69A2D58219DAFCE200E59A32 /* libILJSONData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libILJSONData.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A2D58519DAFCE200E59A32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69A2D58919DAFCE200E59A32 /* ILJSONData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ILJSONData-Prefix.pch"; sourceTree = "<group>"; };
+		69A2D58A19DAFCE200E59A32 /* ILJSONData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILJSONData.h; sourceTree = "<group>"; };
+		69A2D58C19DAFCE200E59A32 /* ILJSONData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILJSONData.m; sourceTree = "<group>"; };
+		69A2D59219DAFCE200E59A32 /* ILJSONDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ILJSONDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A2D59319DAFCE200E59A32 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		69A2D59619DAFCE200E59A32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		69A2D59D19DAFCE200E59A32 /* ILJSONDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ILJSONDataTests-Info.plist"; sourceTree = "<group>"; };
+		69A2D59F19DAFCE200E59A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69A2D5A119DAFCE200E59A32 /* ILJSONDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILJSONDataTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69A2D57F19DAFCE200E59A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A2D58619DAFCE200E59A32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A2D58F19DAFCE200E59A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A2D59419DAFCE200E59A32 /* XCTest.framework in Frameworks */,
+				69A2D59719DAFCE200E59A32 /* UIKit.framework in Frameworks */,
+				69A2D59A19DAFCE200E59A32 /* libILJSONData.a in Frameworks */,
+				69A2D59519DAFCE200E59A32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69A2D57919DAFCE200E59A32 = {
+			isa = PBXGroup;
+			children = (
+				69A2D58719DAFCE200E59A32 /* ILJSONData */,
+				69A2D59B19DAFCE200E59A32 /* ILJSONDataTests */,
+				69A2D58419DAFCE200E59A32 /* Frameworks */,
+				69A2D58319DAFCE200E59A32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69A2D58319DAFCE200E59A32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69A2D58219DAFCE200E59A32 /* libILJSONData.a */,
+				69A2D59219DAFCE200E59A32 /* ILJSONDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69A2D58419DAFCE200E59A32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69A2D58519DAFCE200E59A32 /* Foundation.framework */,
+				69A2D59319DAFCE200E59A32 /* XCTest.framework */,
+				69A2D59619DAFCE200E59A32 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69A2D58719DAFCE200E59A32 /* ILJSONData */ = {
+			isa = PBXGroup;
+			children = (
+				69A2D58A19DAFCE200E59A32 /* ILJSONData.h */,
+				69A2D58C19DAFCE200E59A32 /* ILJSONData.m */,
+				69A2D58819DAFCE200E59A32 /* Supporting Files */,
+			);
+			path = ILJSONData;
+			sourceTree = "<group>";
+		};
+		69A2D58819DAFCE200E59A32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69A2D58919DAFCE200E59A32 /* ILJSONData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69A2D59B19DAFCE200E59A32 /* ILJSONDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				69A2D5A119DAFCE200E59A32 /* ILJSONDataTests.m */,
+				69A2D59C19DAFCE200E59A32 /* Supporting Files */,
+			);
+			path = ILJSONDataTests;
+			sourceTree = "<group>";
+		};
+		69A2D59C19DAFCE200E59A32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69A2D59D19DAFCE200E59A32 /* ILJSONDataTests-Info.plist */,
+				69A2D59E19DAFCE200E59A32 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69A2D58119DAFCE200E59A32 /* ILJSONData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A2D5A519DAFCE200E59A32 /* Build configuration list for PBXNativeTarget "ILJSONData" */;
+			buildPhases = (
+				69A2D57E19DAFCE200E59A32 /* Sources */,
+				69A2D57F19DAFCE200E59A32 /* Frameworks */,
+				69A2D58019DAFCE200E59A32 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ILJSONData;
+			productName = ILJSONData;
+			productReference = 69A2D58219DAFCE200E59A32 /* libILJSONData.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		69A2D59119DAFCE200E59A32 /* ILJSONDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A2D5A819DAFCE200E59A32 /* Build configuration list for PBXNativeTarget "ILJSONDataTests" */;
+			buildPhases = (
+				69A2D58E19DAFCE200E59A32 /* Sources */,
+				69A2D58F19DAFCE200E59A32 /* Frameworks */,
+				69A2D59019DAFCE200E59A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69A2D59919DAFCE200E59A32 /* PBXTargetDependency */,
+			);
+			name = ILJSONDataTests;
+			productName = ILJSONDataTests;
+			productReference = 69A2D59219DAFCE200E59A32 /* ILJSONDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69A2D57A19DAFCE200E59A32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Edgar Paz";
+			};
+			buildConfigurationList = 69A2D57D19DAFCE200E59A32 /* Build configuration list for PBXProject "ILJSONData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 69A2D57919DAFCE200E59A32;
+			productRefGroup = 69A2D58319DAFCE200E59A32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69A2D58119DAFCE200E59A32 /* ILJSONData */,
+				69A2D59119DAFCE200E59A32 /* ILJSONDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69A2D59019DAFCE200E59A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A2D5A019DAFCE200E59A32 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69A2D57E19DAFCE200E59A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A2D58D19DAFCE200E59A32 /* ILJSONData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A2D58E19DAFCE200E59A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A2D5A219DAFCE200E59A32 /* ILJSONDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69A2D59919DAFCE200E59A32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69A2D58119DAFCE200E59A32 /* ILJSONData */;
+			targetProxy = 69A2D59819DAFCE200E59A32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69A2D59E19DAFCE200E59A32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69A2D59F19DAFCE200E59A32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69A2D5A319DAFCE200E59A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69A2D5A419DAFCE200E59A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69A2D5A619DAFCE200E59A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ILJSONData.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ILJSONData/ILJSONData-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		69A2D5A719DAFCE200E59A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ILJSONData.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ILJSONData/ILJSONData-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		69A2D5A919DAFCE200E59A32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ILJSONData/ILJSONData-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ILJSONDataTests/ILJSONDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		69A2D5AA19DAFCE200E59A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ILJSONData/ILJSONData-Prefix.pch";
+				INFOPLIST_FILE = "ILJSONDataTests/ILJSONDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69A2D57D19DAFCE200E59A32 /* Build configuration list for PBXProject "ILJSONData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A2D5A319DAFCE200E59A32 /* Debug */,
+				69A2D5A419DAFCE200E59A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A2D5A519DAFCE200E59A32 /* Build configuration list for PBXNativeTarget "ILJSONData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A2D5A619DAFCE200E59A32 /* Debug */,
+				69A2D5A719DAFCE200E59A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69A2D5A819DAFCE200E59A32 /* Build configuration list for PBXNativeTarget "ILJSONDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A2D5A919DAFCE200E59A32 /* Debug */,
+				69A2D5AA19DAFCE200E59A32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69A2D57A19DAFCE200E59A32 /* Project object */;
+}
