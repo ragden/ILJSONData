@@ -18,7 +18,6 @@
 {
     self = [super init];
     if (self){
-        //Inicializar las variables con método init
         NSDictionary* matchNames = [self matchPropertyNames];
         for (NSString* key in dictionary.allKeys){
             NSString* Key = key;
@@ -29,8 +28,6 @@
                         [self setValue:[[[[self matchPropertyClasses] objectForKey:Key] alloc] initWithDictionary:[dictionary objectForKey:key]] forKey:Key];
                 }
                 else if ([[dictionary objectForKey:key] isKindOfClass:[NSArray class]]){
-                    
-                    //Vigilar que pasa si en vez de q los elementos del array sean objetos sean tipos primitivos
                     NSArray* array = [dictionary objectForKey:key];
                     NSMutableArray *result = [[NSMutableArray alloc] init];
                     for (int i = 0; i < array.count; ++i) {
