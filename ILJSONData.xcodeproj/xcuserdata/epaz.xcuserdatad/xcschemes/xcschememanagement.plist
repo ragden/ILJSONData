@@ -9,11 +9,6 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>ILJSONDataFW.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -28,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>69A2D5AB19DAFF4600E59A32</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69A2D5B919DB0AAA00E59A32</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69A2D5D019DB0AAA00E59A32</key>
 		<dict>
 			<key>primary</key>
 			<true/>

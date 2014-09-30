@@ -38,6 +38,16 @@
                ReferencedContainer = "container:ILJSONData.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "69A2D5D019DB0AAA00E59A32"
+               BuildableName = "ILJSONDataExampleTests.xctest"
+               BlueprintName = "ILJSONDataExampleTests"
+               ReferencedContainer = "container:ILJSONData.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
