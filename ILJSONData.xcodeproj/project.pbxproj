@@ -28,8 +28,15 @@
 		69A2D5D419DB0AAA00E59A32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A2D59619DAFCE200E59A32 /* UIKit.framework */; };
 		69A2D5DC19DB0AAA00E59A32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69A2D5DA19DB0AAA00E59A32 /* InfoPlist.strings */; };
 		69A2D5DE19DB0AAA00E59A32 /* ILJSONDataExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D5DD19DB0AAA00E59A32 /* ILJSONDataExampleTests.m */; };
-		69A2D5E719DB0B2C00E59A32 /* JSONExample.Json in Resources */ = {isa = PBXBuildFile; fileRef = 69A2D5E519DB0B2C00E59A32 /* JSONExample.Json */; };
+		69A2D5E719DB0B2C00E59A32 /* JSONExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 69A2D5E519DB0B2C00E59A32 /* JSONExample.json */; };
 		69A2D5E819DB0B2C00E59A32 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A2D5E619DB0B2C00E59A32 /* Storyboard.storyboard */; };
+		69A2D5EC19DBEEC900E59A32 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D5EB19DBEEC900E59A32 /* FirstViewController.m */; };
+		69A2D5EE19DBEFDF00E59A32 /* libILJSONData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A2D58219DAFCE200E59A32 /* libILJSONData.a */; };
+		69A2D5F319DBF02900E59A32 /* CompanyDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D5F219DBF02900E59A32 /* CompanyDataModel.m */; };
+		69A2D5F619DBF09B00E59A32 /* CEODataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D5F519DBF09B00E59A32 /* CEODataModel.m */; };
+		69A2D5F919DBF10E00E59A32 /* EmployeeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D5F819DBF10E00E59A32 /* EmployeeDataModel.m */; };
+		69A2D5FC19DBFD1F00E59A32 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D5FB19DBFD1F00E59A32 /* ListViewController.m */; };
+		69A2D5FF19DBFD2B00E59A32 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D5FE19DBFD2B00E59A32 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +53,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 69A2D5B919DB0AAA00E59A32;
 			remoteInfo = ILJSONDataExample;
+		};
+		69A2D5EF19DBEFF400E59A32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69A2D57A19DAFCE200E59A32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A2D58119DAFCE200E59A32;
+			remoteInfo = ILJSONData;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -87,8 +101,20 @@
 		69A2D5D919DB0AAA00E59A32 /* ILJSONDataExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ILJSONDataExampleTests-Info.plist"; sourceTree = "<group>"; };
 		69A2D5DB19DB0AAA00E59A32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		69A2D5DD19DB0AAA00E59A32 /* ILJSONDataExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILJSONDataExampleTests.m; sourceTree = "<group>"; };
-		69A2D5E519DB0B2C00E59A32 /* JSONExample.Json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JSONExample.Json; sourceTree = "<group>"; };
+		69A2D5E519DB0B2C00E59A32 /* JSONExample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JSONExample.json; sourceTree = "<group>"; };
 		69A2D5E619DB0B2C00E59A32 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		69A2D5EA19DBEEC900E59A32 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		69A2D5EB19DBEEC900E59A32 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		69A2D5F119DBF02900E59A32 /* CompanyDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyDataModel.h; sourceTree = "<group>"; };
+		69A2D5F219DBF02900E59A32 /* CompanyDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyDataModel.m; sourceTree = "<group>"; };
+		69A2D5F419DBF09B00E59A32 /* CEODataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEODataModel.h; sourceTree = "<group>"; };
+		69A2D5F519DBF09B00E59A32 /* CEODataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEODataModel.m; sourceTree = "<group>"; };
+		69A2D5F719DBF10E00E59A32 /* EmployeeDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeDataModel.h; sourceTree = "<group>"; };
+		69A2D5F819DBF10E00E59A32 /* EmployeeDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeDataModel.m; sourceTree = "<group>"; };
+		69A2D5FA19DBFD1F00E59A32 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		69A2D5FB19DBFD1F00E59A32 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		69A2D5FD19DBFD2B00E59A32 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		69A2D5FE19DBFD2B00E59A32 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A2D5EE19DBEFDF00E59A32 /* libILJSONData.a in Frameworks */,
 				69A2D5BD19DB0AAA00E59A32 /* CoreGraphics.framework in Frameworks */,
 				69A2D5BE19DB0AAA00E59A32 /* UIKit.framework in Frameworks */,
 				69A2D5BB19DB0AAA00E59A32 /* Foundation.framework in Frameworks */,
@@ -207,7 +234,9 @@
 		69A2D5BF19DB0AAA00E59A32 /* ILJSONDataExample */ = {
 			isa = PBXGroup;
 			children = (
-				69A2D5E519DB0B2C00E59A32 /* JSONExample.Json */,
+				69A2D5ED19DBEFD500E59A32 /* dataModel */,
+				69A2D5E919DBEEB200E59A32 /* src */,
+				69A2D5E519DB0B2C00E59A32 /* JSONExample.json */,
 				69A2D5E619DB0B2C00E59A32 /* Storyboard.storyboard */,
 				69A2D5C819DB0AAA00E59A32 /* AppDelegate.h */,
 				69A2D5C919DB0AAA00E59A32 /* AppDelegate.m */,
@@ -244,6 +273,32 @@
 				69A2D5DA19DB0AAA00E59A32 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69A2D5E919DBEEB200E59A32 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				69A2D5EA19DBEEC900E59A32 /* FirstViewController.h */,
+				69A2D5EB19DBEEC900E59A32 /* FirstViewController.m */,
+				69A2D5FA19DBFD1F00E59A32 /* ListViewController.h */,
+				69A2D5FB19DBFD1F00E59A32 /* ListViewController.m */,
+				69A2D5FD19DBFD2B00E59A32 /* DetailViewController.h */,
+				69A2D5FE19DBFD2B00E59A32 /* DetailViewController.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		69A2D5ED19DBEFD500E59A32 /* dataModel */ = {
+			isa = PBXGroup;
+			children = (
+				69A2D5F119DBF02900E59A32 /* CompanyDataModel.h */,
+				69A2D5F219DBF02900E59A32 /* CompanyDataModel.m */,
+				69A2D5F419DBF09B00E59A32 /* CEODataModel.h */,
+				69A2D5F519DBF09B00E59A32 /* CEODataModel.m */,
+				69A2D5F719DBF10E00E59A32 /* EmployeeDataModel.h */,
+				69A2D5F819DBF10E00E59A32 /* EmployeeDataModel.m */,
+			);
+			path = dataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +350,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				69A2D5F019DBEFF400E59A32 /* PBXTargetDependency */,
 			);
 			name = ILJSONDataExample;
 			productName = ILJSONDataExample;
@@ -372,7 +428,7 @@
 				69A2D5C419DB0AAA00E59A32 /* InfoPlist.strings in Resources */,
 				69A2D5E819DB0B2C00E59A32 /* Storyboard.storyboard in Resources */,
 				69A2D5CC19DB0AAA00E59A32 /* Images.xcassets in Resources */,
-				69A2D5E719DB0B2C00E59A32 /* JSONExample.Json in Resources */,
+				69A2D5E719DB0B2C00E59A32 /* JSONExample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +464,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				69A2D5CA19DB0AAA00E59A32 /* AppDelegate.m in Sources */,
+				69A2D5F619DBF09B00E59A32 /* CEODataModel.m in Sources */,
+				69A2D5FC19DBFD1F00E59A32 /* ListViewController.m in Sources */,
+				69A2D5FF19DBFD2B00E59A32 /* DetailViewController.m in Sources */,
+				69A2D5EC19DBEEC900E59A32 /* FirstViewController.m in Sources */,
+				69A2D5F919DBF10E00E59A32 /* EmployeeDataModel.m in Sources */,
 				69A2D5C619DB0AAA00E59A32 /* main.m in Sources */,
+				69A2D5F319DBF02900E59A32 /* CompanyDataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +494,11 @@
 			isa = PBXTargetDependency;
 			target = 69A2D5B919DB0AAA00E59A32 /* ILJSONDataExample */;
 			targetProxy = 69A2D5D519DB0AAA00E59A32 /* PBXContainerItemProxy */;
+		};
+		69A2D5F019DBEFF400E59A32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69A2D58119DAFCE200E59A32 /* ILJSONData */;
+			targetProxy = 69A2D5EF19DBEFF400E59A32 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -696,6 +763,7 @@
 				69A2D5A719DAFCE200E59A32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69A2D5A819DAFCE200E59A32 /* Build configuration list for PBXNativeTarget "ILJSONDataTests" */ = {
 			isa = XCConfigurationList;
@@ -704,6 +772,7 @@
 				69A2D5AA19DAFCE200E59A32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69A2D5DF19DB0AAA00E59A32 /* Build configuration list for PBXNativeTarget "ILJSONDataExample" */ = {
 			isa = XCConfigurationList;
@@ -712,6 +781,7 @@
 				69A2D5E119DB0AAA00E59A32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69A2D5E219DB0AAA00E59A32 /* Build configuration list for PBXNativeTarget "ILJSONDataExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -720,6 +790,7 @@
 				69A2D5E419DB0AAA00E59A32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
