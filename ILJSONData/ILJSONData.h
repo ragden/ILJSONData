@@ -43,6 +43,13 @@
  **/
 - (NSDictionary*) convertDataModelToJSON;
 
+/**
+ *  Get all properties from class
+ *
+ *  @return Returns a NSSet with all property names of class.
+ */
++ (NSSet *)propertyKeys;
+
 #pragma mark - Error Methods
 
 /**

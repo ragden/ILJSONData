@@ -7,6 +7,9 @@
 //
 
 #import "ILJSONData.h"
+#import <objc/runtime.h>
+
+static void *ILJSONDataKey = &ILJSONDataKey;
 
 @interface ILJSONData ()
 
@@ -110,6 +113,32 @@
     }
     
     return result.copy;
+}
+
++ (NSSet *)propertyKeys{
+    //cacheamos las propiedades
+    NSSet *cachedKeys = objc_getAssociatedObject(self, ILJSONDataKey);
+    if (cachedKeys != nil) return cachedKeys;
+    
+    NSMutableSet *keys = [NSMutableSet set];
+    unsigned int outCount, i;
+    objc_property_t *properties = class_copyPropertyList([self class], &outCount);
+    for(i = 0; i < outCount; i++) {
+        objc_property_t property = properties[i];
+        const char *propName = property_getName(property);
+        if(propName){
+            NSString *propertyName = [NSString stringWithCString:propName
+                                                        encoding:[NSString defaultCStringEncoding]];
+            [keys addObject:propertyName];
+        }
+    }
+    
+    free(properties);
+    
+    // It doesn't really matter if we replace another thread's work, since we do
+    // it atomically and the result should be the same.
+    objc_setAssociatedObject(self, ILJSONDataKey, keys, OBJC_ASSOCIATION_COPY);
+    return keys;
 }
 
 #pragma mark - Error Methods
